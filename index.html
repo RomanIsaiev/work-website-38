@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Шлях до самореалізації</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-background">
+        <div class="container">
+          <div class="start-container">
+            <div class="start-box">
+              <p class="start-text">Онлайн-курс</p>
+              <p class="start-date">Старт 7 червня</p>
+            </div>
+          </div>
+          <h1 class="header-title">Шлях до самореалізації</h1>
+          <p class="header-subtitle">= Шлях до себе</p>
+          <p class="header-desc">Твій крок до щасливого, успішного життя</p>
+          <div class="gift-container">
+            <p class="gift-title">
+              Встигни зареєструватись <span>і забери бонуси</span>
+            </p>
+            <div class="gift-wrapper">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/gift-image-mobile-1x.png 1x,
+                    ./src/images/gift-image-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="134"
+                  height="89" />
+                <img
+                  class="gift-bow"
+                  src="./src/images/gift-image-mobile-1x.png"
+                  alt="white bow"
+                  width="134"
+                  height="89"
+              /></picture>
+              <ul class="gift-list list">
+                <li class="list-item">
+                  <span>– Супротив</span> АБО ЯК ПОЧАТИ РОБИТИ СПРАВИ ВЖЕ ЧЕРЕЗ
+                  60 СЕКУНД
+                </li>
+                <li class="list-item">
+                  <span>– Чек лист:</span> критерії здорової самооцінки та
+                  техніка на підвищення самооцінки
+                </li>
+                <li class="list-item"><span>– Гайд:</span> як полюбити себе</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timer-container">
+            <div id="countdown" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="green-decoration">
+        <section class="for-you">
+          <div class="container">
+            <h2 class="for-you-title">Цей курс для Вас, якщо ви:</h2>
+            <ul class="for-you-list list">
+              <li class="list-item">
+                <p>Відчуваєте, що хочете змін в своїй реалізації та житті</p>
+              </li>
+              <li class="list-item">
+                <p>Бажаєте змінити своє мислення про достаток і успіх</p>
+              </li>
+              <li class="list-item">
+                <p>Шукаєте розвитку та росту в кар'єрі і бізнесі</p>
+              </li>
+              <li class="list-item">
+                <p>Бажаєте змінити своє життя і відчувати більше задоволення</p>
+              </li>
+              <li class="list-item">
+                <p>Прагнете збільшити свій дохід і покращити якість життя</p>
+              </li>
+              <li class="list-item"><p>Вперлись в стелю у доході</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="about-author">
+          <div class="container">
+            <h2 class="about-author-title">про автора</h2>
+            <picture
+              ><source
+                srcset="
+                  ./src/images/author-mobile-1x.png 1x,
+                  ./src/images/author-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="320"
+                height="320" />
+              <img
+                class="author-image image"
+                src="./src/images/author-mobile-1x.png"
+                alt="author"
+                width="320"
+                height="320"
+            /></picture>
+            <h3 class="author-name">Цимбалюк Альона</h3>
+            <p class="author-desc">
+              тренер мислення достатку, коуч з медичним дипломом
+            </p>
+            <div>
+              <ul class="about-author-list list">
+                <li class="list-item">
+                  <span>100+</span>
+                  <p>годин сесій</p>
+                </li>
+                <li class="list-item">
+                  <span>30+</span>
+                  <p>кейсів</p>
+                </li>
+              </ul>
+            </div>
+            <p class="author-everyday">
+              Кожен день я допомагаю людям змінювати мислення, рости,
+              масштабуватись, проявлятись,більше заробляти. Щоб жили щасливо,
+              впевнено та легко
+            </p>
+            <p class="author-work-title">Я працюю через:</p>
+            <ul class="author-work-list list">
+              <li class="list-item">психологію</li>
+              <li class="list-item">коучинг</li>
+              <li class="list-item">НЛП підходи</li>
+              <li class="list-item">психосоматику</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="about-course">
+        <div class="container">
+          <h2 class="about-course-title">про курс</h2>
+          <ul class="about-course-list list">
+            <li class="list-item">
+              <p>Укріпите і збільшите свою самооцінку</p>
+            </li>
+            <li class="list-item">
+              <p>
+                Навчитесь впливати на своє життя, на свою реальність через
+                мислення- відчуття- дії
+              </p>
+            </li>
+            <li class="list-item"><p>Відчуєте свою самоцінність</p></li>
+            <li class="list-item">
+              <p>
+                По новому познайомитесь з собою, які ваші сильні і слабкі
+                сторони
+              </p>
+            </li>
+            <li class="list-item"><p>Сформуєте істинну ціль</p></li>
+            <li class="list-item">
+              <p>Побачите де зливаєте енергію та свою мотивацію</p>
+            </li>
+            <li class="list-item">
+              <p>
+                Нарешті відмовитесь від "орендованого життя" і підете до
+                щасливого життя
+              </p>
+            </li>
+          </ul>
+          <p class="about-course-desc">
+            Цей курс надасть вам інструменти та методи для досягнення особистого
+            зростання, самореалізації та досягнення високих результатів у всіх
+            сферах вашого життя.
+          </p>
+        </div>
+      </section>
+      <section class="course-program">
+        <div class="container">
+          <h2 class="course-program-title">программа курса</h2>
+          <ul class="course-program-list list">
+            <li class="list-item">
+              <span>Урок 1:</span><br />
+              Знайомство з справжнім собою
+            </li>
+            <li class="list-item">
+              <span>Урок 2:</span><br />
+              Подорож у середину себе
+            </li>
+            <li class="list-item">
+              <span>Урок 3:</span><br />
+              Формування Мети, Цілі
+            </li>
+            <li class="list-item">
+              <span>Урок 4:</span><br />
+              Розвиток soft skills
+            </li>
+            <li class="list-item">
+              <span>Урок 5:</span><br />
+              Подолання Викликів, страхів
+            </li>
+            <li class="list-item">
+              <span>Урок 6:</span><br />
+              Подолання страхів, тверджень
+            </li>
+            <li class="list-item">
+              <span>Урок 7:</span><br />
+              Практика самореалізації з проекцією у майбутнє
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-price">
+        <div class="section-price-background">
+          <div class="container">
+            <p class="price"><span>44$</span>&nbsp; &nbsp; 26$</p>
+            <ul class="price-desc-list list">
+              <li class="list-item">
+                Введіть свої дані, натисніть "Купити курс" і система одразу
+                перенаправить Вас до оплати!
+              </li>
+              <li class="list-item">
+                Одразу після оплати Вам надійде доступ на пошту
+              </li>
+              <li class="list-item">
+                Перевіряйте, будь ласка, папки Спам і Промоакції
+              </li>
+            </ul>
+            <div class="gift-container">
+              <p class="gift-title black">
+                Встигни зареєструватись <span>і забери бонуси</span>
+              </p>
+              <div class="gift-wrapper">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/gift-image-mobile-1x.png 1x,
+                      ./src/images/gift-image-mobile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="134"
+                    height="89" />
+                  <img
+                    class="gift-bow"
+                    src="./src/images/gift-image-mobile-1x.png"
+                    alt="white bow"
+                    width="134"
+                    height="89"
+                /></picture>
+                <ul class="gift-list list">
+                  <li class="list-item">
+                    <span>– Супротив</span> АБО ЯК ПОЧАТИ РОБИТИ СПРАВИ ВЖЕ
+                    ЧЕРЕЗ 60 СЕКУНД
+                  </li>
+                  <li class="list-item">
+                    <span>– Чек лист:</span> критерії здорової самооцінки та
+                    техніка на підвищення самооцінки
+                  </li>
+                  <li class="list-item">
+                    <span>– Гайд:</span> як полюбити себе
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timer-container">
+              <div id="countdown-two" class="countdown margin-zero">
+                <div class="countdown-number">
+                  <span class="hours-two countdown-time"></span>
+                </div>
+                <div><span class="countdown-doubledot"></span></div>
+                <div class="countdown-number">
+                  <span class="minutes-two countdown-time"></span>
+                </div>
+                <div><span class="countdown-doubledot"></span></div>
+                <div class="countdown-number">
+                  <span class="seconds-two countdown-time"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="blackground-decoration">
+        <section class="what-you-get">
+          <div class="container">
+            <h2 class="you-get-title">
+              Що ви отримаєте <span>на курсі:</span>
+            </h2>
+            <div class="you-get-container">
+              <img
+                class="you-get-dots"
+                src="./src/images/you-get-dots.svg"
+                alt="dots"
+              />
+              <ul class="you-get-list list">
+                <li class="list-item">
+                  щоденні короткі відеоуроки направлені на практичні дії
+                </li>
+                <li class="list-item">додаткові бонуси та матеріали</li>
+                <li class="list-item">
+                  зворотній зв'язок по домашніх завданнях особисто від автора
+                  курсу
+                </li>
+                <li class="list-item">
+                  наприкінці курсу групову сесію запитання-відповідь з автором
+                  курсу
+                </li>
+                <li class="list-item">
+                  доступ до матеріалів довічний у телеграм каналі
+                </li>
+              </ul>
+            </div>
+            <div class="after-course-wrapper">
+              <h2 class="after-course-title">
+                Після завершення курсу ви отримаєте:
+              </h2>
+              <p class="after-course-text">
+                цілісніше розуміння себе та дієві стратегії для досягнення
+                успіху у вашому житті, а також зможете почувати себе більш
+                впевнено та наповнено енергією
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section-question">
+          <div class="container">
+            <h2 class="question-title">Відповіді на запитання</h2>
+            <div class="questions-two">
+              <div class="faq-two">
+                <div class="question-two open isOpen">
+                  <div class="question-two-name">
+                    <p>Скільки триває курс та скільки буде доступ?</p>
+                    <img
+                      class="question-plus"
+                      src="./src/images/questions-plus.svg"
+                      alt="+"
+                      width="18"
+                      height="18"
+                    />
+                  </div>
+                  <div class="content-two">
+                    <p>
+                      Курс триває 7 днів і кожен день ви отримуєте новий відео
+                      урок. Доступ до курсу буде 2 місяці
+                    </p>
+                  </div>
+                </div>
+                <div class="question-two">
+                  <div class="question-two-name">
+                    <p>Чи є зворотній зв'язок?</p>
+                    <img
+                      class="question-plus"
+                      src="./src/images/questions-plus.svg"
+                      alt="+"
+                      width="18"
+                      height="18"
+                    />
+                  </div>
+                  <div class="content-two">
+                    <p>Зворотній зв'язок триває 14 днів від автора курсу</p>
+                  </div>
+                </div>
+                <div class="question-two">
+                  <div class="question-two-name">
+                    <p>Чим мені допоможе курс?</p>
+                    <img
+                      class="question-plus"
+                      src="./src/images/questions-plus.svg"
+                      alt="+"
+                      width="18"
+                      height="18"
+                    />
+                  </div>
+                  <div class="content-two">
+                    <p>
+                      Допоможе звільнитись від «синдрому самозванця» та знайти
+                      напрямок самореалізації. Знайти істину свою мотивацію для
+                      реалізації
+                    </p>
+                  </div>
+                </div>
+                <div class="question-two">
+                  <div class="question-two-name">
+                    <p>Для кого курс?</p>
+                    <img
+                      class="question-plus"
+                      src="./src/images/questions-plus.svg"
+                      alt="+"
+                      width="18"
+                      height="18"
+                    />
+                  </div>
+                  <div class="content-two">
+                    <p>Для людей, які:</p>
+                    <ul>
+                      <li>хочуть самореалізуватись, але не знають як</li>
+                      <li>
+                        відчувають, що загубили себе і хочуть більш щасливого
+                        життя-вперлись у фінансову стелю
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="question-two last-question">
+                  <div class="question-two-name">
+                    <p>Який результат після проходження курсу?</p>
+                    <img
+                      class="question-plus"
+                      src="./src/images/questions-plus.svg"
+                      alt="+"
+                      width="18"
+                      height="18"
+                    />
+                  </div>
+                  <div class="content-two">
+                    <p>По завершенні курсу ви отримаєте:</p>
+                    <ul>
+                      <li>
+                        покладете твердий фундамент у вашій самореалізації
+                      </li>
+                      <li>
+                        підвищите впевненість в собі-побудуєте амбітний план дій
+                      </li>
+                      <li>
+                        знайдете свою внутрішню мотивацію-глибоке розуміння себе
+                      </li>
+                      <li>
+                        вибудуєте дієві стратегії для досягнення успіху у вашому
+                        житті
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-deals">
+          <ul class="deals-list list">
+            <li class="list-item">
+              <a class="link" href="" target="_blank" rel="nofollow"
+                >Договір оферта</a
+              >
+            </li>
+            <li class="list-item">
+              <a class="link" href="" target="_blank" rel="nofollow"
+                >Політика конфіденційності</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-container">
+          <div class="mail-container">
+            <img
+              src="./src/images/gmail-icon.svg"
+              alt="gmail"
+              width="20"
+              height="20"
+            />
+            <p class="mail-link">@gmail.com</p>
+          </div>
+        </div>
+        <a
+          class="disign-creator-link link"
+          href="https://www.instagram.com/lllcku"
+          target="_blank"
+          rel="nofollow"
+          ><div class="disign-creator">
+            <p class="create-by-text">Сайт розроблений</p>
+            <img
+              class="insta-icon"
+              src="./src/images/insta-icon.svg"
+              alt="insta"
+              width="14"
+              height="14"
+            />
+            <p class="create-by-text">@lllcku</p>
+          </div>
+        </a>
+      </div>
+    </footer>
+    <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
+    <script src="./src/js/faq.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/scroll.js" type="module"></script>
+  </body>
+</html>
