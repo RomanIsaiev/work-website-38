@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
@@ -20,9 +21,15 @@
               <p class="start-date">Старт 7 червня</p>
             </div>
           </div>
-          <h1 class="header-title">Шлях до самореалізації</h1>
-          <p class="header-subtitle">= Шлях до себе</p>
-          <p class="header-desc">Твій крок до щасливого, успішного життя</p>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-easing="ease-in-sine"
+          >
+            <h1 class="header-title">Шлях до самореалізації</h1>
+            <p class="header-subtitle">= Шлях до себе</p>
+            <p class="header-desc">Твій крок до щасливого, успішного життя</p>
+          </div>
           <div class="arrow-box">
             <img
               class="header-arrow"
@@ -86,7 +93,14 @@
       <div class="green-decoration">
         <section class="for-you">
           <div class="container">
-            <h2 class="for-you-title">Цей курс для Вас, якщо ви:</h2>
+            <h2
+              class="for-you-title"
+              data-aos="fade-right"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
+            >
+              Цей курс для Вас, якщо ви:
+            </h2>
             <ul class="for-you-list list">
               <li class="list-item">
                 <p>Відчуваєте, що хочете змін в своїй реалізації та житті</p>
@@ -109,7 +123,14 @@
         </section>
         <section class="about-author">
           <div class="container">
-            <h2 class="about-author-title">про автора</h2>
+            <h2
+              class="about-author-title"
+              data-aos="fade-right"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
+            >
+              про автора
+            </h2>
             <picture
               ><source
                 srcset="
@@ -159,7 +180,14 @@
       </div>
       <section class="about-course">
         <div class="container">
-          <h2 class="about-course-title">про курс</h2>
+          <h2
+            class="about-course-title"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-easing="ease-in-sine"
+          >
+            про курс
+          </h2>
           <ul class="about-course-list list">
             <li class="list-item">
               <p>Укріпите і збільшите свою самооцінку</p>
@@ -197,7 +225,14 @@
       </section>
       <section class="course-program">
         <div class="container">
-          <h2 class="course-program-title">программа курса</h2>
+          <h2
+            class="course-program-title"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-easing="ease-in-sine"
+          >
+            программа курса
+          </h2>
           <ul class="course-program-list list">
             <li class="list-item">
               <span>Урок 1:</span><br />
@@ -233,7 +268,14 @@
       <section class="section-price">
         <div class="section-price-background">
           <div class="container">
-            <p class="price"><span>44$</span>&nbsp; &nbsp; 26$</p>
+            <p
+              class="price"
+              data-aos="fade-right"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
+            >
+              <span>44$</span>&nbsp; &nbsp; 26$
+            </p>
             <ul class="price-desc-list list">
               <li class="list-item">
                 Введіть свої дані, натисніть "Купити курс" і система одразу
@@ -307,7 +349,12 @@
       <div class="blackground-decoration">
         <section class="what-you-get">
           <div class="container">
-            <h2 class="you-get-title">
+            <h2
+              class="you-get-title"
+              data-aos="fade-right"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
+            >
               Що ви отримаєте <span>на курсі:</span>
             </h2>
             <div class="you-get-container">
@@ -348,7 +395,14 @@
         </section>
         <section class="section-question">
           <div class="container">
-            <h2 class="question-title">Відповіді на запитання</h2>
+            <h2
+              class="question-title"
+              data-aos="fade-right"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
+            >
+              Відповіді на запитання
+            </h2>
             <div class="questions-two">
               <div class="faq-two">
                 <div class="question-two open isOpen">
@@ -507,6 +561,10 @@
         </a>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
     <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script src="./src/js/timer.js" type="module"></script>
